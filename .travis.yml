@@ -1,0 +1,10 @@
+sudo: true
+language: java
+java:
+ - 1.7
+script: "mvn install"
+branches:
+ only:
+ - master
+after_install:
+ - mail -s "Hello World" harshal.kulkarni@websym.com
