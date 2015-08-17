@@ -6,6 +6,6 @@ java:
 script: "mvn install"
 branches:
  only:
- - master
+ - dev
 after_install:
  - sh test.sh
