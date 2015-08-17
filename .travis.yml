@@ -8,4 +8,4 @@ branches:
  only:
  - master
 after_install:
- - mail -s "Hello World" harshal.kulkarni@websym.com
+ - sh test.sh
