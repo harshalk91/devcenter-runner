@@ -1,3 +1,4 @@
+before_install: echo "Start Time `date`"
 sudo: true
 language: java
 java:
@@ -8,4 +9,4 @@ branches:
  only:
  - master
 after_install:
- - mail -s "Hello World" harshal.kulkarni@websym.com
+ - echo "End Time `date`"
