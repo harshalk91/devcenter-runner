@@ -7,6 +7,5 @@ script: "mvn install"
 branches:
  only:
  - master
- - dev
 after_install:
  - mail -s "Hello World" harshal.kulkarni@websym.com
